@@ -3,7 +3,6 @@ from flask import Flask
 import string
 import random
 
-
 app = Flask(__name__)
 
 
