@@ -19,3 +19,15 @@ Volume of a Sphere ()
 
 https://www.sitepoint.com/python-web-applications-the-basics-of-wsgi/
 https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html
+
+
+1. Создать таблицу emails с полем value и с FK на users
+2. path: /emails/list/ - отобразить все имейлы в таблице
+3. path: /emails/create/ - создать имейл в таблице (свять с юзером)
+4. path: /emails/update/ - обновить имейл параметрами с клиента (https://www.sqlitetutorial.net/sqlite-update/)
+   !!! WHERE !!!
+5. path: /emails/delete/ - удалить имейл по id (https://www.sqlitetutorial.net/sqlite-delete/)
+   !!! WHERE !!!
+6. path: /users/emails/ - inner join users and emails
+
+** https://stackoverflow.com/questions/22776756/parameterized-queries-in-sqlite3-using-question-marks/22776921
